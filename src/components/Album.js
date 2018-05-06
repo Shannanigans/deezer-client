@@ -5,14 +5,12 @@ import { baseStyle, colors } from "../styles/baseStyle"
 
 class Album extends Component {
   render() {
-    const { selected } = this.props
     return (
       <div
         style={{
           ...style.albumWrapper,
           ...baseStyle.flexColumn,
-          ...baseStyle.flexContainer,
-          ...(selected ? style.selected : null)
+          ...baseStyle.flexContainer
         }}
       >
         <div style={{ ...baseStyle.flexItem }}>
@@ -42,9 +40,6 @@ const style = {
     textOverflow: "ellipsis",
     maxWidth: 100,
     textAlign: "center"
-  },
-  selected: {
-    borderBottom: "1px solid " + colors.lightGrey
   }
 }
 

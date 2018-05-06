@@ -23,13 +23,6 @@ class AlbumCarousel extends Component {
             {map(albums, album => (
               <Album
                 key={album.id}
-                selected={
-                  album.id === (selectedAlbum && selectedAlbum.id) ? (
-                    true
-                  ) : (
-                    false
-                  )
-                }
                 onClick={this.props.setSearchSelectedAlbum}
                 src={album.cover}
                 albumId={album.id}
