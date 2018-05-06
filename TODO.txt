@@ -1,0 +1,41 @@
+===========> DONE
+
+(DONE)album duck
+  watch select successfully
+  request artist album
+  save albums with artist value
+  pass albums to dashboard container
+
+(DONE)select album
+  save in ui store
+  watch select album
+  fetch album tracks
+  pass tracks to dashboard container
+
+(DONE) select
+  debounce
+  dont request on page load
+  saga axios search request
+  replace redux store in search
+
+===========> TODO
+
+use single reducer
+(DONE)move search functionality to ui duck
+use default images for albums
+clean up code
+  clean up api
+remove initial test data
+style
+add loading indicators
+add transitions
+remove TODO note
+create repo and update
+create selectors to get data
+HORIZONTAL SCROLL
+  RESPONSIVE ISSUES
+
+Not doing responsive design
+Not doing singleton reducer
+Not doing generalised response data normalisation
+Not doing fancy css modules styling
